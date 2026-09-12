@@ -1,0 +1,15 @@
+# Bin Packing Solver
+
+A Python Tkinter app for solving the bin packing problem with multiple algorithms.
+
+## Features
+
+- First Fit
+- Next Fit
+- Genetic Algorithm
+- Backtracking
+- Visualization of bin usage
+
+## Run
+
+python "Bin packing.ipynb"
