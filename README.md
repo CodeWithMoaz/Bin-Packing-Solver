@@ -58,11 +58,13 @@ Example input:
 
 Add the project screenshots to an `images/` folder with the following names to display them in the README:
 
-![Main interface](images/bin-packing-main.png)
+![Main interface](images/pic1.png)
 
-![Solved example](images/bin-packing-solved.png)
+![Solved example (Genetic)](images/pic2.png)
 
-![Comparison result](images/bin-packing-comparison.png)
+![Solved example (BackTracking)](images/pic3.png)
+
+![Comparison result](images/pic4.png)
 
 ## Notes
 
