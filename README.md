@@ -1,0 +1,75 @@
+# Bin Packing Solver
+
+This project is a Python-based GUI application for solving the classic bin packing problem. It visualizes how items are assigned to bins and compares several heuristic and optimization algorithms.
+
+## Project Overview
+
+The application allows users to:
+
+- enter item sizes as comma-separated values
+- set a bin capacity
+- choose an algorithm
+- solve the problem interactively
+- view a bin-by-bin visualization
+- compare multiple algorithms on the same input
+
+## Included Algorithms
+
+The solver includes the following strategies:
+
+- First Fit: places each item into the first bin that has enough remaining space
+- Next Fit: only considers the current bin before opening a new one
+- Genetic Algorithm: uses an evolutionary approach to improve packing quality
+- Backtracking: searches systematically for a near-optimal solution on smaller instances
+
+## Features
+
+- interactive Tkinter-based interface
+- bin visualization with capacity and efficiency indicators
+- algorithm comparison results
+- execution time statistics
+- solution history tracking
+
+## Requirements
+
+- Python 3.x
+- Tkinter (included with most standard Python installations)
+- Jupyter Notebook support if running the notebook version in VS Code or Jupyter
+
+## How to Run
+
+1. Open the project folder.
+2. Open the notebook file named `Bin packing.ipynb` in VS Code or Jupyter.
+3. Run all cells in the notebook.
+4. Enter item sizes and capacity in the GUI.
+5. Select an algorithm and click Solve.
+
+Example input:
+
+- Item sizes: `50,20,50,80`
+- Bin capacity: `100`
+
+## File Structure
+
+- `Bin packing.ipynb` — main notebook containing the solver implementation and GUI
+- `README.md` — project documentation
+
+## Screenshots
+
+Add the project screenshots to an `images/` folder with the following names to display them in the README:
+
+![Main interface](images/bin-packing-main.png)
+
+![Solved example](images/bin-packing-solved.png)
+
+![Comparison result](images/bin-packing-comparison.png)
+
+## Notes
+
+- The backtracking method is best suited for smaller input sizes because it becomes computationally expensive as the number of items grows.
+- The genetic algorithm is useful for exploring improved packing arrangements beyond simple greedy methods.
+- The application also estimates the theoretical minimum number of bins required for a given input.
+
+## License
+
+This project is provided for educational and demonstration purposes.
